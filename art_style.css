@@ -136,7 +136,7 @@ section {
     left:0;
     width:100vw;
     height:100vh;
-    background: var(--c0) url(https://riseapps.co/wp-content/uploads/2023/08/How-AI-is-Used-in-Healthcare.png) no-repeat 50% 50% fixed;
+    background: var(--c0) url(/robot.png) no-repeat 50% 50% fixed;
     background-size: cover;
     pointer-events:none;
     mix-blend-mode:difference;
