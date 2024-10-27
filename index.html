@@ -1,0 +1,175 @@
+<!-- Work In Progress -->
+<!-- https://www.svgrepo.com/collection/emojione-mono-emojis/ -->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=aktura@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/art_style.css">
+    <script type="module" src="/art_script.js"></script>
+</head>
+
+
+<body>
+<div class="activity"></div>
+<div class="vignette"></div>
+
+<h3 class="nav-title _1" ><a href="#hello">CANCERJIU</a></h3>
+<h3 class="nav-title _2" ><a href="#studio">STUDIO</a></h3>
+<h3 class="nav-title _3" ><a href="#contact">CONTACT</a></h3>
+<div class="cursor"></div>
+
+<div id="toggle-theme">
+    <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)"><g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round" stroke="#ffffff" stroke-width="0.384"></g><g> <path d="M3.5 13L3.29592 12.0476C2.62895 8.93509 5.00172 6 8.18494 6H19M19 6L16 9M19 6L16 3M20.5 11L20.7041 11.9524C21.3711 15.0649 18.9983 18 15.8151 18H5M5 18L8 15M5 18L8 21" stroke="#000000" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+</div>
+
+<div class='btn-fullscreen' id='fullscreen-mode'>
+    <svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' focusable='false' width='1.4em' height='1.4em' style='-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);' preserveAspectRatio='xMidYMid meet' viewBox='0 0 17 17'>
+        <g fill='' fill-rule='evenodd'>
+            <path d='M3 5h12v8H3z'/>
+            <path d='M3.918 14.938H1v-2.876h1v1.98h1.918v.896z'/>
+            <path d='M17 14.938h-2.938v-.896H16v-1.984h1v2.88z'/>
+            <path d='M17 5.917h-1v-1.95h-1.943v-.946H17v2.896z'/>
+            <path d='M2 5.938H1V3h2.938v.938H2v2z'/>
+        </g>
+    </svg>
+</div>
+
+<section id="hello">
+    <div class="section-content">
+        <h3 class="headline centered">AI transforms<br>Healthcare</h3>
+    </div>
+    <div id="img-bkg"></div>
+</section>
+
+<section id="studio">
+    <div class="section-content">
+        <h2 class="subtitle">PROJECTS</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h2>AI in Medical Diagnosis</h2>
+                <p>Explore how AI analyzes medical images and patient data to assist in accurate disease diagnosis. From X-rays to MRIs, AI is revolutionizing diagnostic accuracy.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI-Powered Drug Discovery</h2>
+                <p>Discover how AI accelerates drug development by analyzing molecular structures and predicting drug interactions, significantly reducing research time and costs.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI in Patient Care</h2>
+                <p>Learn about AI-powered monitoring systems that track patient vital signs and predict potential health issues before they become critical.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>Predictive Healthcare Analytics</h2>
+                <p>See how AI analyzes patient data to predict disease outbreaks, identify high-risk patients, and optimize healthcare resource allocation.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI for Personalized Medicine</h2>
+                <p>Understand how AI helps create customized treatment plans based on individual patient genetics, lifestyle, and medical history.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI in Medical Robotics</h2>
+                <p>Explore AI's role in robotic surgery and rehabilitation, enhancing precision and improving patient outcomes through advanced automation.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI in Mental Health</h2>
+                <p>Learn about AI-powered tools for mental health assessment, therapy support, and early detection of psychological conditions.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+
+            <div class="card">
+                <h2>AI in Medical Research</h2>
+                <p>Discover how AI accelerates medical research by analyzing vast datasets, identifying patterns, and generating new hypotheses for investigation.</p>
+                <h3 class="btn-more"><a href="#">+ MORE</a></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="section-content">
+        <h3 class="headline centered">CONTACT</h3>
+    </div>
+
+    <svg width="0" height="0">
+        <defs id="defs1">
+            <filter id="turbulence-effect">
+                <feTurbulence type="fractalNoise" baseFrequency="0.002" numOctaves="1" seed="1" result="noise">
+                    <animate attributeName="baseFrequency" values="0.002;0.01;0.002" dur="20s" repeatCount="indefinite"/>
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="80">
+                    <animate attributeName="scale" values="80; 120; 80" dur="10s" repeatCount="indefinite" />
+                </feDisplacementMap>
+            </filter>
+
+
+            <filter id="pixelate-effect" x="0" y="0">
+                <feFlood x="4" y="4" height="2" width="2"/>
+                <feComposite width="12" height="16"/>
+                <feTile x="0" y="0" width="1080" height="1080"  result="c"/>
+                <feComposite in="SourceGraphic" in2="c" operator="in"/>
+                <feMorphology operator="dilate" radius="3"/>
+                <feMorphology operator="dilate" radius="1"/>
+
+            </filter>
+
+            <filter id="pixelate-effect-sm" x="0" y="0">
+                <feFlood x="4" y="4" height="1" width="1"/>
+                <feComposite width="4" height="4"/>
+                <feTile x="0" y="0" width="108" height="108"  result="c"/>
+                <feComposite in="SourceGraphic" in2="c" operator="in"/>
+                <feMorphology operator="dilate" radius="1"/>
+            </filter>
+
+            <filter style="color-interpolation-filters:sRGB" id="lines-effect">
+                <feConvolveMatrix in="SourceGraphic" kernelMatrix="0 250 0 250 -1338 250 0 250 0" order="3 3" result="convolve" id="feConvolveMatrix296" />
+                <feBlend in="convolve" in2="SourceGraphic" mode="multiply" result="blend" id="feBlend296" />
+                <feTurbulence
+                        type="turbulence"
+                        baseFrequency="0.25 0.0"
+                        numOctaves="1"
+                        seed="6"
+                        result="turbulence"
+                        id="feTurbulence296">
+                    <animate attributeName="baseFrequency"
+                             values="0.23 0.0; 0.1 0.0; 0.25 0.0; 0.2 0.0';"
+                             dur="1s"
+                             repeatCount="indefinite" />
+                </feTurbulence>
+                <feColorMatrix
+                        in="blend"
+                        type="luminanceToAlpha"
+                        result="colormatrix1"
+                        id="feColorMatrix296" />
+                <feComposite in="turbulence" in2="colormatrix1" k1="5.75851" k2="0.835913" k4="0.0853659" operator="arithmetic" result="composite1" id="feComposite296" k3="0" />
+                <feColorMatrix in="composite1" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 -9 " result="colormatrix2" id="feColorMatrix297" />
+                <feGaussianBlur stdDeviation="0.0" result="blur" id="feGaussianBlur297" />
+                <feFlood flood-color="rgb(0,0,0)" flood-opacity="1" result="flood1" id="feFlood297" />
+                <feComposite in="flood1" in2="blur" operator="out" result="composite2" id="feComposite297" />
+                <feFlood flood-color="rgb(255,255,255)" flood-opacity="1" result="flood2" id="feFlood298" />
+                <feComposite in="flood2" in2="blur" operator="in" result="composite3" id="feComposite298" />
+                <feComposite in="composite3" in2="composite2" k2="1" k3="1" operator="arithmetic" result="composite4" id="feComposite299" k1="0" k4="0"/>
+                <feComposite in2="SourceGraphic" operator="in" result="composite5" id="feComposite300" /></filter>
+
+
+        </defs></svg>
+
+    <footer><h2 id="year"></h2></footer>
+
+</section>
+
+<p class="timer"><span id="string"><span id="h">00</span><span class="h">h</span><span id="m">00</span><span class="m">m</span><span id="s">00</span><span class="s">s</span></span>
+</p>
+
+</body>
